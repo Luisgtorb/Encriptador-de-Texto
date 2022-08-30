@@ -1,0 +1,169 @@
+* {
+    box-sizing: content-box;
+    margin: 3px;
+}
+
+body {
+    background-color: gainsboro;
+    width: 1007px;
+    height: 440px;
+}
+
+/* Header: aquí va el logo en la parte superior */
+.logo {
+    float:left;
+}
+
+/* Main: aquí va el contenido del proyecto, el centro del proyecto */
+.contenido {
+    display: flex;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Sector izquierdo: aquí va a estar el cuadro donde el usuario agregara el texto, y los botones con su respectiva funciones */
+
+.lado-izquierdo {
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.texto-entrante {
+    border: none;
+    border-radius: 5px;
+    background-color: gainsboro;
+    width: 500px;
+    height: 270px;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    outline: none;
+}
+
+.texto-entrante::placeholder {
+    color: darkblue;
+}
+
+/* Icon de informacion */
+
+.icon {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+i {
+    color: grey
+} 
+
+p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+/* Botones de encriptar y desencriptar */
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.encriptar-texto {
+    width: 230px;
+    height: 45px;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    color: gainsboro;
+    background-color: rgb(0, 0, 139);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.encriptar-texto::after {
+    content: "!";
+}
+
+.desencriptar-texto {
+    width: 230px;
+    height: 45px;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    color: darkblue;
+    background-color: rgba(0, 0, 139, 0.137);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.desencriptar-texto::after {
+    content: "!";
+}
+
+/* Sector derecho: aquí va a estar el cuadro donde el usuario visualizará el texto, y el botón con su respectiva funciones */
+
+.lado-derecho {
+    display: block;
+    background-color: whitesmoke;
+    background-image: url(images/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 25px 80px;
+    background-size: 200px 180px;
+    width: 250px;
+    height: 440px;
+    border-radius: 20px;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 260px;
+}
+
+.p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Aquí se visualizará el texto encriptado */
+
+.texto-resuelto {
+    border: none;
+    border-radius: 20px; 
+    background-color: whitesmoke;
+    width: 240px;
+    height: 280px;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:black
+}
+
+/* Botón de copiar texto */
+
+.copy{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.copiar {
+    width: 200px;
+    height: 45px;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    color: darkblue;
+    background-color: rgba(220, 220, 220, 0.236);    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
