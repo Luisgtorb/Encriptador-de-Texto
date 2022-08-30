@@ -1,17 +1,13 @@
-* {
-    box-sizing: content-box;
-    margin: 3px;
-}
-
 body {
     background-color: gainsboro;
-    width: 1007px;
-    height: 440px;
+    width: 100%;
+    height: 450px;
 }
 
 /* Header: aquí va el logo en la parte superior */
 .logo {
     float:left;
+    padding: 15px;
 }
 
 /* Main: aquí va el contenido del proyecto, el centro del proyecto */
@@ -27,20 +23,20 @@ textarea {
 
 .lado-izquierdo {
     display: block;
-    width: 600px;
-    height: 400px;
-    margin-left: 80px;
+    width: 60%;
+    height: 450px;
+    margin-left: 10%;
 }
 
 .texto-entrante {
     border: none;
     border-radius: 5px;
     background-color: gainsboro;
-    width: 500px;
-    height: 270px;
+    width: 90%;
+    height: 290px;
     margin-top: 70px;
-    margin-left: 50px;
-    font-size: 20px;
+    margin-left: 5%;
+    font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
     color: darkblue;
     outline: none;
@@ -54,9 +50,7 @@ textarea {
 
 .icon {
     display: flex;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 50px;
+    margin: 5px 6%;
 }
 
 i {
@@ -67,13 +61,14 @@ p {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
+    margin: 2px 7px;
 }
 
 /* Botones de encriptar y desencriptar */
 
 .boton {
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .encriptar-texto {
@@ -85,6 +80,7 @@ p {
     background-color: rgb(0, 0, 139);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    margin: 0 5px;
 }
 
 .encriptar-texto::after {
@@ -100,6 +96,7 @@ p {
     background-color: rgba(0, 0, 139, 0.137);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    margin: 0 5px;
 }
 
 .desencriptar-texto::after {
@@ -114,23 +111,25 @@ p {
     background-image: url(images/Muñeco.png);
     background-repeat: no-repeat;
     background-position: 25px 80px;
-    background-size: 200px 180px;
+    background-size: 200px 190px;
     width: 250px;
-    height: 440px;
+    height: 450px;
     border-radius: 20px;
+    margin: 5px 17px;
 }
 
 h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
-    padding-top: 260px;
+    padding-top: 300px;
 }
 
 .p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 13px;
     text-align: center;
+    margin-top: 7px;
 }
 
 /* Aquí se visualizará el texto encriptado */
@@ -139,12 +138,13 @@ h3 {
     border: none;
     border-radius: 20px; 
     background-color: whitesmoke;
-    width: 240px;
-    height: 280px;
+    width: 95%;
+    height: 300px;
     outline: none;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    color:black
+    color:black;
+    margin: 10px 5px;
 }
 
 /* Botón de copiar texto */
@@ -152,7 +152,7 @@ h3 {
 .copy{
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .copiar {
@@ -166,4 +166,51 @@ h3 {
     font-size: 20px;
 }
 
+/* Aquí veremos el footer con la informacion del desarrollador */
 
+.rodapie {
+    text-align: center;
+    background: radial-gradient(#111 10%, #555 30%, #333 40%, #000);
+    margin-top: 15px;
+}
+
+.rodapie img {
+    border: 3px solid white;
+    border-radius: 65px;
+    width: 120px;
+    height: 115px;
+    margin: 15px 0;
+    box-shadow: 0px 0px 15px whitesmoke;
+}
+
+.rodapie h3 {
+    padding-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #aaa;
+    text-shadow: 0 0 20px rgba(0, 0, 139, 0.349);
+}
+
+.rodapie h3:hover {
+    font-size: 33px;
+    text-shadow: 2px 2px 5px rgba(220, 220, 220, 0.236);
+}
+
+.rodapie i {
+    font-size: 35px;
+    margin: 10px 5px;
+}
+
+.fa-github:hover {
+    color: black;
+}
+
+.fa-linkedin:hover {
+    color: rgba(0, 0, 139, 0.856);
+}
+
+.rodapie p {
+    padding: 7px 0;
+    color: #aaa;
+}
