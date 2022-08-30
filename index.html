@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+
+    <header class="logo">
+        <img src="images/Logo.png" alt="Logo de Alura">       
+    </header>
+    
+    <main class="contenido">
+
+        <section class="lado-izquierdo">
+            <textarea class="texto-entrante" cols="40" rows="10" placeholder="Escriba un texto aquí..."></textarea>
+            <div class="icon">
+                <i class="fas fa-info-circle"></i>
+                <p>Agregar letras en minusculas y sin acento</p>
+            </div>
+            <div class="boton">
+                <button class="encriptar-texto" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar-texto" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="lado-derecho">
+            <textarea class="texto-resuelto" cols="35" rows="10" hidden></textarea>
+                <h3>Ningun mensaje fue encontrado</h3> 
+                <p class="p">Ingresa el texto que desea encriptar o desencriptar</p>
+            <div class="copy">
+                <button class="copiar" onclick="btnCopiar()" hidden>Copiar</button>
+            </div>         
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
