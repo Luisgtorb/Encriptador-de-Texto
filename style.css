@@ -146,6 +146,20 @@ h3 {
     margin-top: 7px;
 }
 
+#copiado h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 300px;
+}
+
+#copiado p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 7px;
+}
+
 /* Aquí se visualizará el texto encriptado */
 
 .texto-resuelto {
@@ -187,6 +201,10 @@ h3 {
     transition: 400ms;
 }
 
+.copiar::after {
+    content: "!";
+}
+
 /* Aquí veremos el footer con la informacion del desarrollador */
 
 .rodapie {
@@ -198,8 +216,8 @@ h3 {
 .rodapie img {
     border: 3px solid white;
     border-radius: 65px;
-    width: 120px;
-    height: 115px;
+    width: 95px;
+    height: 90px;
     margin: 15px 0;
     box-shadow: 0px 0px 15px whitesmoke;
 }
