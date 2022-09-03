@@ -209,17 +209,17 @@ h3 {
 
 .rodapie {
     text-align: center;
-    background: radial-gradient(#111 10%, #555 30%, #333 40%, #000);
-    margin-top: 15px;
+    background: linear-gradient(#cfcfcf 40%, #888);
+    margin-top: 25px;
 }
 
 .rodapie img {
-    border: 3px solid white;
+    border: 3px solid rgba(2, 2, 61, 0.753);
     border-radius: 65px;
     width: 95px;
     height: 90px;
     margin: 15px 0;
-    box-shadow: 0px 0px 15px whitesmoke;
+    box-shadow: 0px 0px 15px rgba(0, 0, 139, 0.349);
 }
 
 .rodapie h3 {
@@ -227,18 +227,19 @@ h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
-    color: #aaa;
-    text-shadow: 0 0 20px rgba(0, 0, 139, 0.349);
+    color: rgba(0, 0, 139, 0.918);
+    text-shadow: 0 0 20px rgba(21, 21, 22, 0.795);
 }
 
-.rodapie h3:hover {
+/* .rodapie h3:hover {
     font-size: 33px;
     text-shadow: 2px 2px 5px rgba(220, 220, 220, 0.236);
-}
+} */
 
 .rodapie i {
     font-size: 35px;
     margin: 10px 5px;
+    color:darkblue
 }
 
 .fa-github:hover {
@@ -251,5 +252,5 @@ h3 {
 
 .rodapie p {
     padding: 7px 0;
-    color: #aaa;
+    color: darkblue;
 }
