@@ -81,6 +81,13 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     margin: 0 5px;
+    cursor: pointer;
+}
+
+.encriptar-texto:hover {
+    font-size: 23px;
+    box-shadow: 2px 2px 15px #333;
+    transition: 400ms;
 }
 
 .encriptar-texto::after {
@@ -97,6 +104,13 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     margin: 0 5px;
+    cursor: pointer;
+}
+
+.desencriptar-texto:hover {
+    font-size: 23px;
+    box-shadow: 2px 2px 15px #333;
+    transition: 400ms;
 }
 
 .desencriptar-texto::after {
@@ -164,6 +178,13 @@ h3 {
     background-color: rgba(220, 220, 220, 0.236);    
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.copiar:hover {
+    font-size: 23px;
+    box-shadow: 2px 2px 15px #333;
+    transition: 400ms;
 }
 
 /* Aquí veremos el footer con la informacion del desarrollador */

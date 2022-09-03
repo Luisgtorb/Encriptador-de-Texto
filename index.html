@@ -31,11 +31,13 @@
         </section>
 
         <section class="lado-derecho">
-            <textarea class="texto-resuelto" cols="35" rows="10" hidden></textarea>
-                <h3>Ningun mensaje fue encontrado</h3> 
-                <p class="p">Ingresa el texto que desea encriptar o desencriptar</p>
+            <textarea id="texto" class="texto-resuelto" cols="35" rows="10" hidden></textarea>
+                <div id="mensaje">
+                    <h3>Ningun mensaje fue encontrado</h3> 
+                    <p class="p">Ingresa el texto que desea encriptar o desencriptar</p>
+                </div>
             <div class="copy">
-                <button class="copiar" onclick="btnCopiar()" hidden>Copiar</button>
+                <button id="copiar" class="copiar" onclick="btnCopiar()" hidden>Copiar</button>
             </div>         
         </section>
 
