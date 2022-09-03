@@ -239,7 +239,9 @@ h3 {
 .rodapie i {
     font-size: 35px;
     margin: 10px 5px;
-    color:darkblue
+    color:darkblue;
+    cursor: pointer;
+
 }
 
 .fa-github:hover {
